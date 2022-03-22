@@ -26,7 +26,6 @@ void PrintArguments_1(runtime_arguments* args){
     printf("%s\n",args->name);
 }
 
-
 runtime_arguments HandleArguments_2(int argc,char** argv){
 
     if(argc != 2){

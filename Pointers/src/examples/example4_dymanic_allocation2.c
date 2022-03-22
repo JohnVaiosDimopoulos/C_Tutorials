@@ -53,7 +53,6 @@ struct Array
     int row_count;
 }typedef Array;
 
-
 Array* InitArray(int col_num,int rows_num){
     Array* arr = malloc(sizeof(Array));
     arr->col_count = col_num;
@@ -72,7 +71,6 @@ void FreeArray(Array* arr){
     free(arr->data);
     free(arr);
 }
-
 
 void FillArrayFromFile(Array* arr,const char* file_path){
        
@@ -99,7 +97,6 @@ void IncrementAllElements(Array* arr){
         for(int j=0;j<arr->col_count;j++)
             arr->data[i][j]++;
 }
-
 
 
 int main(int argc, char **argv)
