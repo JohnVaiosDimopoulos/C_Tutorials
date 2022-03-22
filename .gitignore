@@ -1,2 +1,2 @@
-./Pointers/objects
-./Pointers/target
+/Pointers/objects/*
+/Pointers/target/*
